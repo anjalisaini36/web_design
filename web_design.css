@@ -2,16 +2,19 @@ body{
     margin: 0;
     padding: 0;
 }
-.navbar{
+.navbar-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .menu-container{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    
-    
+}
+
+.menu-icon{
+display: none;
 }
 
 .menu-item {
@@ -77,3 +80,116 @@ body{
     text-align: center;
 }
 
+.banner2-h1{
+    font-size: 34px;
+    /* margin: 0; */
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+display: flex;
+}
+
+.content2{
+    /* border: #000000; */
+    text-align: center;
+}
+
+.enough{
+    text-align: center;
+}
+
+.underline{
+    border-width: 1px;
+    border-style: solid;
+    width: 269px;
+    margin: auto;
+    border-color: #007ff0;
+}
+
+.underline2{
+    border-width: 1px;
+    border-style: solid;
+    width: 169px;
+    margin: auto;
+    border-color: #007ff0;
+}
+
+.button1-color{
+    color: #007ff0;
+    border-color: #007ff0;
+    padding: 1px 16px;
+}
+
+.button2-color{
+    color: #007ff0;
+    border-color: #007ff0;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+
+.footer-color{
+    color: #007ff0;
+}
+
+
+@media(max-width:767px)
+{
+    .menu-container{
+        display: none; 
+    }
+    .menu-icon{
+        display: block;
+    }
+    .banner-h1{
+        font-size: 20px;
+       
+    }
+    
+    .banner-h2{
+        font-size: 20px;
+       
+    }
+    .banner{
+        height: 250px;
+    }
+    .banner-button {
+        margin: 25px;
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    .paragraph,.banner2-h2,.paragraph2{
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+    }
+    .content2 {
+        /* border: #000000; */
+        text-align: center;
+        padding: 0px !important;
+    }
+    .button1-color{
+        margin-bottom: 30px;
+    }
+    .heading{
+        margin-top: 30px;
+    }
+    .text-uppercase{
+        font-size: 12px;
+    }
+    .list-unstyled{
+        font-size: 12px;
+        margin: 9px;
+    }
+    .image{
+        height: 250px;
+    }
+}
