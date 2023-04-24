@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.menu-icon{
+display: none;
+}
+
+.menu-item {
+    margin: 18px;
+}
+
+.menu-item a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+a:hover{
+    color: #807f7f !important;
+}
+
+@media(max-width:767px)
+{
+    .menu-container{
+        display: none; 
+    }
+    .menu-icon{
+        display: block;
+    }
+
+
+}
